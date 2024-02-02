@@ -150,11 +150,17 @@ body {
 .nav-list {
     display: flex;
     gap: 40px;
+
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+.nav-link:first-child {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
-.nav-item {}
 
 
 .header-logo-span {
