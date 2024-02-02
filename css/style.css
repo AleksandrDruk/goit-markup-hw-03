@@ -154,12 +154,8 @@ body {
 }
 
 .nav-link {
-    display: inline-block;
-}
-
-.nav-link:first-child {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
+    display: block;
 }
 
 
