@@ -149,11 +149,12 @@ body {
 
 .nav-list {
     display: flex;
-    gap: 0 40px;
+    gap: 40px;
 }
 
 .nav-item {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo-span {
@@ -171,7 +172,7 @@ body {
 
 .contacts-list {
     display: flex;
-    gap: 0 40px;
+    gap: 40px;
     margin-right: auto;
 }
 
@@ -207,6 +208,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin: 0 auto;
     margin-bottom: 48px;
     max-width: 496px;
 
@@ -222,6 +224,7 @@ body {
     border: none;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
     padding: 16px 32px;
     height: 56px;
 }
@@ -238,7 +241,7 @@ body {
 .advantages-list {
     display: flex;
     justify-content: center;
-    gap: 0 24px;
+    gap: 24px;
 }
 
 .advantages-item {
@@ -256,7 +259,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 64px 24px;
+    gap: 24px;
 }
 
 .team-item {
